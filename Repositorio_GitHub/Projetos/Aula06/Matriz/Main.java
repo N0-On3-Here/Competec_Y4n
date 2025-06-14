@@ -38,20 +38,20 @@ public class Main
 		System.out.println("Matriz já declarada");
 		int tabela01 [][] = new int [5][3];
 		tabela01[0][0] = 0;
-		tabela01[1][1] = 1;
-		tabela01[2][2] = 2;
-		tabela01[3][0] = 3;
-		tabela01[4][1] = 4;
-		tabela01[0][2] = 10;
-		tabela01[1][0] = 20;
+		tabela01[0][1] = 1;
+		tabela01[0][2] = 2;
+		tabela01[1][0] = 3;
+		tabela01[1][1] = 4;
+		tabela01[1][2] = 10;
+		tabela01[2][0] = 20;
 		tabela01[2][1] = 30;
-		tabela01[3][2] = 40;
-		tabela01[4][0] = 50;
-		tabela01[0][1] = 101;
-		tabela01[1][2] = 102;
-		tabela01[2][0] = 103;
-		tabela01[3][1] = 104;
-		tabela01[4][1] = 105;
+		tabela01[2][2] = 40;
+		tabela01[3][0] = 50;
+		tabela01[3][1] = 101;
+		tabela01[3][2] = 102;
+		tabela01[4][0] = 103;
+		tabela01[4][1] = 104;
+		tabela01[4][2] = 105;
 		
 		for (int i = 0; i < tabela01.length; i++) {
             for (int j = 0; j < tabela01[i].length; j++) {
